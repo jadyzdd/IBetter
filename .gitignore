@@ -1,6 +1,6 @@
 .DS_Store
 /Pods/
-designboard.xcworkspace
+Attributor.xcworkspace
 Podfile.lock
 *.swp
 *~.nib
@@ -10,8 +10,8 @@ Podfile.lock
 *.xcodeproj/xcuserdata/*
 *.xcodeproj/project.xcworkspace/xcuserdata/*
 .idea/
-designboard.xcworkspace/xcuserdata
+Attributor.xcworkspace/xcuserdata
 Pods/Pods.xcodeproj/xcuserdata
-designboard.xcworkspace/xcshareddata/designboard.xccheckout
+Attributor.xcworkspace/xcshareddata/designboard.xccheckout
 node_modules
 /Pods/*
