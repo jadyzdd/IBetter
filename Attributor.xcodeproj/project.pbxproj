@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A9ED4B71A5281FB00FD06DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B61A5281FB00FD06DD /* main.m */; };
 		4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */; };
 		4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4BC1A5281FB00FD06DD /* ViewController.m */; };
@@ -29,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController.h; sourceTree = "<group>"; };
+		4A3BBE801C958263000A349C /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController.m; sourceTree = "<group>"; };
+		4A3BBE821C9584C4000A349C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4A9ED4B11A5281FB00FD06DD /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9ED4B51A5281FB00FD06DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A9ED4B61A5281FB00FD06DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,8 +80,26 @@
 		4A3BBE7C1C95802A000A349C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4A3BBE7D1C9581D9000A349C /* Controllers */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A3BBE7D1C9581D9000A349C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE7E1C958207000A349C /* HomeControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4A3BBE7E1C958207000A349C /* HomeControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
+				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
+			);
+			path = HomeControllers;
 			sourceTree = "<group>";
 		};
 		4A9ED4A81A5281FB00FD06DD = {
@@ -121,6 +143,7 @@
 			children = (
 				4A9ED4B51A5281FB00FD06DD /* Info.plist */,
 				4A9ED4B61A5281FB00FD06DD /* main.m */,
+				4A3BBE821C9584C4000A349C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -304,6 +327,7 @@
 			files = (
 				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
+				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +451,8 @@
 			baseConfigurationReference = 8F061869A0450C7FCCB86979 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Attributor/PrefixHeader.pch;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +465,8 @@
 			baseConfigurationReference = 2FF61D757349CE54555913BE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Attributor/PrefixHeader.pch;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
