@@ -1,0 +1,17 @@
+.DS_Store
+/Pods/
+designboard.xcworkspace
+Podfile.lock
+*.swp
+*~.nib
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xcodeproj/xcuserdata/*
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+.idea/
+designboard.xcworkspace/xcuserdata
+Pods/Pods.xcodeproj/xcuserdata
+designboard.xcworkspace/xcshareddata/designboard.xccheckout
+node_modules
+/Pods/*
