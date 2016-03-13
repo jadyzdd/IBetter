@@ -6,19 +6,16 @@
 //  Copyright (c) 2014年 taobao. All rights reserved.
 //
 
-#import "DSUserViewController.h"
-#import "DSScanViewController.h"
-#import <UIColor+Additions.h>
-#import "DSLogService.h"
-#import "DSBoardViewController.h"
+#import "IBMUserViewController.h"
 
-@interface DSUserViewController ()
+
+@interface IBMUserViewController ()
 
 @property (strong, nonatomic) IBOutlet UITextView *tipView;
 
 @end
 
-@implementation DSUserViewController
+@implementation IBMUserViewController
 
 - (instancetype)init {
     if (self = [super init]) {
@@ -39,7 +36,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.pageLogName = @"mainViewLogout";
-    _tipView.textColor = [UIColor colorWithRGBHex:0xf18600];
+//    _tipView.textColor = [UIColor colorWithRGBHex:0xf18600];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,9 +45,9 @@
 }
 
 - (IBAction)toLogin:(id)sender {
-    DSScanViewController *scanVC = [[DSScanViewController alloc] initWithType:kDSScanTypeLogin];
-    scanVC.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:scanVC animated:YES];
+//    DSScanViewController *scanVC = [[DSScanViewController alloc] initWithType:kDSScanTypeLogin];
+//    scanVC.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:scanVC animated:YES];
 }
 
 

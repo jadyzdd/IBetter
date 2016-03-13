@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
+		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
+		4A3BBE881C958B2D000A349C /* IBMUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */; };
+		4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE8B1C958C88000A349C /* IBMBaseController.m */; };
+		4A3BBE901C95A21A000A349C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE8F1C95A21A000A349C /* Constants.m */; };
 		4A9ED4B71A5281FB00FD06DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B61A5281FB00FD06DD /* main.m */; };
 		4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */; };
 		4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4BC1A5281FB00FD06DD /* ViewController.m */; };
@@ -33,6 +37,13 @@
 		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController.h; sourceTree = "<group>"; };
 		4A3BBE801C958263000A349C /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController.m; sourceTree = "<group>"; };
 		4A3BBE821C9584C4000A349C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4A3BBE841C958B2D000A349C /* IBMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMUserViewController.h; sourceTree = "<group>"; };
+		4A3BBE851C958B2D000A349C /* IBMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMUserViewController.m; sourceTree = "<group>"; };
+		4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBMUserViewController.xib; sourceTree = "<group>"; };
+		4A3BBE8A1C958C88000A349C /* IBMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMBaseController.h; sourceTree = "<group>"; };
+		4A3BBE8B1C958C88000A349C /* IBMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMBaseController.m; sourceTree = "<group>"; };
+		4A3BBE8E1C95A21A000A349C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4A3BBE8F1C95A21A000A349C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		4A9ED4B11A5281FB00FD06DD /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9ED4B51A5281FB00FD06DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A9ED4B61A5281FB00FD06DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 		4A3BBE7C1C95802A000A349C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4A3BBE8D1C95A208000A349C /* Utils */,
 				4A3BBE7D1C9581D9000A349C /* Controllers */,
 			);
 			path = Classes;
@@ -88,6 +100,8 @@
 		4A3BBE7D1C9581D9000A349C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4A3BBE891C958C3F000A349C /* BaseControllers */,
+				4A3BBE831C958AEB000A349C /* LoginControllers */,
 				4A3BBE7E1C958207000A349C /* HomeControllers */,
 			);
 			path = Controllers;
@@ -100,6 +114,34 @@
 				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
 			);
 			path = HomeControllers;
+			sourceTree = "<group>";
+		};
+		4A3BBE831C958AEB000A349C /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE841C958B2D000A349C /* IBMUserViewController.h */,
+				4A3BBE851C958B2D000A349C /* IBMUserViewController.m */,
+				4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */,
+			);
+			path = LoginControllers;
+			sourceTree = "<group>";
+		};
+		4A3BBE891C958C3F000A349C /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE8A1C958C88000A349C /* IBMBaseController.h */,
+				4A3BBE8B1C958C88000A349C /* IBMBaseController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		4A3BBE8D1C95A208000A349C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE8E1C95A21A000A349C /* Constants.h */,
+				4A3BBE8F1C95A21A000A349C /* Constants.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4A9ED4A81A5281FB00FD06DD = {
@@ -257,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3BBE881C958B2D000A349C /* IBMUserViewController.xib in Resources */,
 				4A9ED4C01A5281FB00FD06DD /* Main.storyboard in Resources */,
 				4A9ED4C51A5281FB00FD06DD /* LaunchScreen.xib in Resources */,
 				4A9ED4C21A5281FB00FD06DD /* Images.xcassets in Resources */,
@@ -326,9 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
+				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
+				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
+				4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

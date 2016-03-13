@@ -6,11 +6,13 @@
 //  Copyright (c) 2014年 张栋栋. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "IBMHomeViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic,strong) IBMHomeViewController *homeController;
 
 
 @end

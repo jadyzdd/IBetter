@@ -6,9 +6,10 @@
 //  Copyright (c) 2014年 taobao. All rights reserved.
 //
 
-#import "DSBaseViewController.h"
+#import "IBMUserViewController.h"
+#import "IBMBaseController.h"
 
-@interface DSUserViewController : DSBaseViewController
+@interface IBMUserViewController :IBMBaseController
 
 - (instancetype)initWithTitle:(NSString *)title;
 

@@ -16,6 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //UI tint color
+    UIColor *tintColor = [UIColor redColor];
+    [[UITabBar appearance] setTintColor:tintColor];
+    [[UINavigationBar appearance] setTintColor:tintColor];
+    [[UIToolbar appearance] setTintColor:tintColor];
+    
+    _homeController = [[IBMHomeViewController alloc] init];
+    self.window.rootViewController = _homeController;
+
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

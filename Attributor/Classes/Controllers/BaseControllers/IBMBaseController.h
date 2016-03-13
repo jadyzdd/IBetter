@@ -6,8 +6,9 @@
 //  Copyright © 2016年 张栋栋. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
-@interface IBMBaseController : NSObject
+@interface IBMBaseController : UIViewController
+
+@property (nonatomic, strong) NSString *pageLogName;
 
 @end
