@@ -73,6 +73,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4A3BBE7C1C95802A000A349C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4A9ED4A81A5281FB00FD06DD = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +103,7 @@
 		4A9ED4B31A5281FB00FD06DD /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
+				4A3BBE7C1C95802A000A349C /* Classes */,
 				4A9ED4B81A5281FB00FD06DD /* AppDelegate.h */,
 				4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */,
 				4A9ED4BB1A5281FB00FD06DD /* ViewController.h */,
