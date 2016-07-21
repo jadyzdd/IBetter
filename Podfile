@@ -1,5 +1,6 @@
 source "git@gitlab.alibaba-inc.com:alipods/specs.git"
 source "git@gitlab.alibaba-inc.com:alipods/specs-mirror.git"
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios,'7.0'
 
