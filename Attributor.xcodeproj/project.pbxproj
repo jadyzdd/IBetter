@@ -58,8 +58,8 @@
 		4A9ED4CA1A5281FB00FD06DD /* AttributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9ED4CF1A5281FB00FD06DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A9ED4D01A5281FB00FD06DD /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
-		4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStorageService.h; sourceTree = "<group>"; };
-		4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStorageService.m; sourceTree = "<group>"; };
+		4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBMStorageService.h; path = ../IBMStorageService.h; sourceTree = "<group>"; };
+		4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IBMStorageService.m; path = ../IBMStorageService.m; sourceTree = "<group>"; };
 		8F061869A0450C7FCCB86979 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA09B9F7FDCF38531D50905 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,8 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				4AF147241D44BCCB00C3BE56 /* DBUtil */,
-				4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */,
-				4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */,
 				4A3BBE8E1C95A21A000A349C /* Constants.h */,
 				4A3BBE8F1C95A21A000A349C /* Constants.m */,
 			);
@@ -224,6 +222,8 @@
 		4AF147241D44BCCB00C3BE56 /* DBUtil */ = {
 			isa = PBXGroup;
 			children = (
+				4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */,
+				4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */,
 			);
 			path = DBUtil;
 			sourceTree = "<group>";
