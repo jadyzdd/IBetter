@@ -1,5 +1,5 @@
-source "git@gitlab.alibaba-inc.com:alipods/specs.git"
-source "git@gitlab.alibaba-inc.com:alipods/specs-mirror.git"
+#source "git@gitlab.alibaba-inc.com:alipods/specs.git"
+#source "git@gitlab.alibaba-inc.com:alipods/specs-mirror.git"
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios,'7.0'
@@ -15,7 +15,7 @@ pod 'FXKeychain',               '~> 1.5.2'
 pod 'UMengFeedback',            '~> 1.4.1'
 pod 'MWPhotoBrowser',           '1.4.1'
 pod 'MSPullToRefreshController', '~> 1.1.0'
-pod 'ChopeToastView',           '~> 0.4.0'
+#pod 'ChopeToastView',           '~> 0.4.0'
 pod 'UMengMessage',             '~> 1.1.0.2'
 pod 'Masonry',                  '0.5.3'
 pod 'JSONModel',                '~> 1.0.1'
@@ -27,3 +27,4 @@ pod 'HMSegmentedControl',       '~> 1.4.0'
 
 pod 'MTStatusBarOverlay',       '~> 0.9.1'
 pod 'Nimbus',                   '~> 1.3.0'
+pod 'FMDB',                     '~> 2.6.2'

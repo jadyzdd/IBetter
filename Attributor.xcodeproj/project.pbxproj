@@ -19,6 +19,7 @@
 		4A9ED4C21A5281FB00FD06DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4C11A5281FB00FD06DD /* Images.xcassets */; };
 		4A9ED4C51A5281FB00FD06DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4C31A5281FB00FD06DD /* LaunchScreen.xib */; };
 		4A9ED4D11A5281FB00FD06DD /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4D01A5281FB00FD06DD /* AttributorTests.m */; };
+		4AF147221D44B7DD00C3BE56 /* IBMStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */; };
 		DDA1628DE3E5389553614891 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA09B9F7FDCF38531D50905 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		4A9ED4CA1A5281FB00FD06DD /* AttributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9ED4CF1A5281FB00FD06DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A9ED4D01A5281FB00FD06DD /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStorageService.h; sourceTree = "<group>"; };
+		4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStorageService.m; sourceTree = "<group>"; };
 		8F061869A0450C7FCCB86979 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA09B9F7FDCF38531D50905 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +94,7 @@
 		4A3BBE7C1C95802A000A349C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1471F1D44AE6800C3BE56 /* Root */,
 				4A3BBE8D1C95A208000A349C /* Utils */,
 				4A3BBE7D1C9581D9000A349C /* Controllers */,
 			);
@@ -138,6 +142,8 @@
 		4A3BBE8D1C95A208000A349C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4AF147201D44B7DD00C3BE56 /* IBMStorageService.h */,
+				4AF147211D44B7DD00C3BE56 /* IBMStorageService.m */,
 				4A3BBE8E1C95A21A000A349C /* Constants.h */,
 				4A3BBE8F1C95A21A000A349C /* Constants.m */,
 			);
@@ -205,6 +211,13 @@
 				4A9ED4CF1A5281FB00FD06DD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF1471F1D44AE6800C3BE56 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Root;
 			sourceTree = "<group>";
 		};
 		7A2BF7A151EF4A78122AA72D /* Pods */ = {
@@ -372,6 +385,7 @@
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
+				4AF147221D44B7DD00C3BE56 /* IBMStorageService.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */,
