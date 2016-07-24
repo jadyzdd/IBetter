@@ -21,6 +21,15 @@
 		4A9ED4C51A5281FB00FD06DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4C31A5281FB00FD06DD /* LaunchScreen.xib */; };
 		4A9ED4D11A5281FB00FD06DD /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4D01A5281FB00FD06DD /* AttributorTests.m */; };
 		4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB241D44C411009CBD0A /* LKDBHelper.m */; };
+		4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB271D44C630009CBD0A /* IBMModel.m */; };
+		4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB2A1D450F99009CBD0A /* LKDBTranscationHelper.m */; };
+		4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB2D1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m */; };
+		4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB301D45107D009CBD0A /* IBMModel+LKModel.m */; };
+		4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB331D4510EA009CBD0A /* LKDB+Mapping.m */; };
+		4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEAB361D451166009CBD0A /* LKDBUtils.m */; };
+		4AAEAB3D1D451740009CBD0A /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB3C1D451740009CBD0A /* libstdc++.6.tbd */; };
+		4AAEAB3F1D45185B009CBD0A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB3E1D45185B009CBD0A /* libz.tbd */; };
+		4AAEAB401D451897009CBD0A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB381D4512E3009CBD0A /* libsqlite3.tbd */; };
 		DDA1628DE3E5389553614891 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA09B9F7FDCF38531D50905 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +72,22 @@
 		4A9ED4D01A5281FB00FD06DD /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
 		4AAEAB231D44C411009CBD0A /* LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
 		4AAEAB241D44C411009CBD0A /* LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
+		4AAEAB261D44C630009CBD0A /* IBMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMModel.h; sourceTree = "<group>"; };
+		4AAEAB271D44C630009CBD0A /* IBMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMModel.m; sourceTree = "<group>"; };
+		4AAEAB291D450F99009CBD0A /* LKDBTranscationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBTranscationHelper.h; sourceTree = "<group>"; };
+		4AAEAB2A1D450F99009CBD0A /* LKDBTranscationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBTranscationHelper.m; sourceTree = "<group>"; };
+		4AAEAB2C1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBMModel+LKDBTranscationHelper.h"; sourceTree = "<group>"; };
+		4AAEAB2D1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBMModel+LKDBTranscationHelper.m"; sourceTree = "<group>"; };
+		4AAEAB2F1D45107D009CBD0A /* IBMModel+LKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBMModel+LKModel.h"; sourceTree = "<group>"; };
+		4AAEAB301D45107D009CBD0A /* IBMModel+LKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IBMModel+LKModel.m"; sourceTree = "<group>"; };
+		4AAEAB321D4510EA009CBD0A /* LKDB+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKDB+Mapping.h"; sourceTree = "<group>"; };
+		4AAEAB331D4510EA009CBD0A /* LKDB+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Mapping.m"; sourceTree = "<group>"; };
+		4AAEAB351D451166009CBD0A /* LKDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
+		4AAEAB361D451166009CBD0A /* LKDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
+		4AAEAB381D4512E3009CBD0A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4AAEAB3A1D451732009CBD0A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4AAEAB3C1D451740009CBD0A /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		4AAEAB3E1D45185B009CBD0A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8F061869A0450C7FCCB86979 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA09B9F7FDCF38531D50905 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAEAB401D451897009CBD0A /* libsqlite3.tbd in Frameworks */,
+				4AAEAB3F1D45185B009CBD0A /* libz.tbd in Frameworks */,
+				4AAEAB3D1D451740009CBD0A /* libstdc++.6.tbd in Frameworks */,
 				DDA1628DE3E5389553614891 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +117,10 @@
 		2B8602C0683C39DCAB9F54C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AAEAB3E1D45185B009CBD0A /* libz.tbd */,
+				4AAEAB3C1D451740009CBD0A /* libstdc++.6.tbd */,
+				4AAEAB3A1D451732009CBD0A /* libsqlite3.0.tbd */,
+				4AAEAB381D4512E3009CBD0A /* libsqlite3.tbd */,
 				BEA09B9F7FDCF38531D50905 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -230,6 +262,18 @@
 			children = (
 				4AAEAB231D44C411009CBD0A /* LKDBHelper.h */,
 				4AAEAB241D44C411009CBD0A /* LKDBHelper.m */,
+				4AAEAB261D44C630009CBD0A /* IBMModel.h */,
+				4AAEAB271D44C630009CBD0A /* IBMModel.m */,
+				4AAEAB291D450F99009CBD0A /* LKDBTranscationHelper.h */,
+				4AAEAB2A1D450F99009CBD0A /* LKDBTranscationHelper.m */,
+				4AAEAB2C1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.h */,
+				4AAEAB2D1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m */,
+				4AAEAB2F1D45107D009CBD0A /* IBMModel+LKModel.h */,
+				4AAEAB301D45107D009CBD0A /* IBMModel+LKModel.m */,
+				4AAEAB321D4510EA009CBD0A /* LKDB+Mapping.h */,
+				4AAEAB331D4510EA009CBD0A /* LKDB+Mapping.m */,
+				4AAEAB351D451166009CBD0A /* LKDBUtils.h */,
+				4AAEAB361D451166009CBD0A /* LKDBUtils.m */,
 			);
 			path = StorageUtil;
 			sourceTree = "<group>";
@@ -402,12 +446,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
+				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
+				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
+				4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */,
 				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
+				4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
+				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,
 				4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */,
