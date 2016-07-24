@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A0782F61D44BEB2007A2E64 /* IBMStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782F51D44BEB2007A2E64 /* IBMStorageService.m */; };
 		4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */; };
 		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
@@ -36,8 +35,6 @@
 
 /* Begin PBXFileReference section */
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4A0782F41D44BEB2007A2E64 /* IBMStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBMStorageService.h; path = Attributor/Classes/Utils/IBMStorageService.h; sourceTree = SOURCE_ROOT; };
-		4A0782F51D44BEB2007A2E64 /* IBMStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IBMStorageService.m; path = Attributor/Classes/Utils/IBMStorageService.m; sourceTree = SOURCE_ROOT; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
 		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController.h; sourceTree = "<group>"; };
@@ -154,8 +151,8 @@
 		4A3BBE8D1C95A208000A349C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1AE261D44C21F0030A1EB /* StorageUtil */,
 				4A0782F91D44BF3A007A2E64 /* StringUtil */,
-				4AF147241D44BCCB00C3BE56 /* DBUtil */,
 				4A3BBE8E1C95A21A000A349C /* Constants.h */,
 				4A3BBE8F1C95A21A000A349C /* Constants.m */,
 			);
@@ -232,13 +229,11 @@
 			name = Root;
 			sourceTree = "<group>";
 		};
-		4AF147241D44BCCB00C3BE56 /* DBUtil */ = {
+		4AF1AE261D44C21F0030A1EB /* StorageUtil */ = {
 			isa = PBXGroup;
 			children = (
-				4A0782F41D44BEB2007A2E64 /* IBMStorageService.h */,
-				4A0782F51D44BEB2007A2E64 /* IBMStorageService.m */,
 			);
-			path = DBUtil;
+			path = StorageUtil;
 			sourceTree = "<group>";
 		};
 		7A2BF7A151EF4A78122AA72D /* Pods */ = {
@@ -406,7 +401,6 @@
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
-				4A0782F61D44BEB2007A2E64 /* IBMStorageService.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,
