@@ -38,10 +38,10 @@
 
 
 - (BOOL)isFirstLaunch{
-    id firstLaunch = [CMStorageService ud_objectForKey:PM_APP_FIRST_LAUNCH];
-    if (firstLaunch && [firstLaunch isKindOfClass:[NSNumber class]]) {
-        return [((NSNumber *)firstLaunch) boolValue];
-    }
+//    id firstLaunch = [CMStorageService ud_objectForKey:PM_APP_FIRST_LAUNCH];
+//    if (firstLaunch && [firstLaunch isKindOfClass:[NSNumber class]]) {
+//        return [((NSNumber *)firstLaunch) boolValue];
+//    }
     return YES;
 }
 
