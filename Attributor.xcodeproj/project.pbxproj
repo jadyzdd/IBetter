@@ -30,6 +30,7 @@
 		4AAEAB3D1D451740009CBD0A /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB3C1D451740009CBD0A /* libstdc++.6.tbd */; };
 		4AAEAB3F1D45185B009CBD0A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB3E1D45185B009CBD0A /* libz.tbd */; };
 		4AAEAB401D451897009CBD0A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAEAB381D4512E3009CBD0A /* libsqlite3.tbd */; };
+		4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A73F1D4F7D7A0097899B /* FMDatabaseQueue+Database.m */; };
 		DDA1628DE3E5389553614891 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA09B9F7FDCF38531D50905 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,8 @@
 		4AAEAB3A1D451732009CBD0A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		4AAEAB3C1D451740009CBD0A /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		4AAEAB3E1D45185B009CBD0A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4AD9A73E1D4F7D7A0097899B /* FMDatabaseQueue+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabaseQueue+Database.h"; sourceTree = "<group>"; };
+		4AD9A73F1D4F7D7A0097899B /* FMDatabaseQueue+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabaseQueue+Database.m"; sourceTree = "<group>"; };
 		8F061869A0450C7FCCB86979 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA09B9F7FDCF38531D50905 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -274,6 +277,8 @@
 				4AAEAB331D4510EA009CBD0A /* LKDB+Mapping.m */,
 				4AAEAB351D451166009CBD0A /* LKDBUtils.h */,
 				4AAEAB361D451166009CBD0A /* LKDBUtils.m */,
+				4AD9A73E1D4F7D7A0097899B /* FMDatabaseQueue+Database.h */,
+				4AD9A73F1D4F7D7A0097899B /* FMDatabaseQueue+Database.m */,
 			);
 			path = StorageUtil;
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 			files = (
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
+				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
 				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
