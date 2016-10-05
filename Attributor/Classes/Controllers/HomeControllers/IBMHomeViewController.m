@@ -76,7 +76,7 @@ typedef enum :NSUInteger{
 
 - (UINavigationController *)homePage{
 
-    IBMUserViewController *homeVC = [[IBMUserViewController alloc] initWithTitle:@"呵呵"];
+    IBMUserViewController *homeVC = [[IBMUserViewController alloc] initWithTitle:@"科科"];
     
     UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
     
