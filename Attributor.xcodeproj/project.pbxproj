@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093258A21DBBAF4300DDE765 /* IBMHomeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */; };
 		4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */; };
 		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController1.h; sourceTree = "<group>"; };
+		093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController1.m; sourceTree = "<group>"; };
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 			children = (
 				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
 				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
+				093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */,
+				093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */,
 			);
 			path = HomeControllers;
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 				4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */,
 				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
 				4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */,
+				093258A21DBBAF4300DDE765 /* IBMHomeViewController1.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
