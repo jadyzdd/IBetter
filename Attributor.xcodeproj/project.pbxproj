@@ -120,6 +120,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09898A541DCA188D0083B28A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		2B8602C0683C39DCAB9F54C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +201,7 @@
 		4A3BBE8D1C95A208000A349C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				09898A541DCA188D0083B28A /* Category */,
 				4AAEAB221D44C3FE009CBD0A /* StorageUtil */,
 				4A0782F91D44BF3A007A2E64 /* StringUtil */,
 				4A3BBE8E1C95A21A000A349C /* Constants.h */,
