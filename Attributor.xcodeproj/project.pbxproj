@@ -20,7 +20,6 @@
 		4A3BBE901C95A21A000A349C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE8F1C95A21A000A349C /* Constants.m */; };
 		4A9ED4B71A5281FB00FD06DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B61A5281FB00FD06DD /* main.m */; };
 		4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */; };
-		4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4BC1A5281FB00FD06DD /* ViewController.m */; };
 		4A9ED4C01A5281FB00FD06DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4BE1A5281FB00FD06DD /* Main.storyboard */; };
 		4A9ED4C21A5281FB00FD06DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4C11A5281FB00FD06DD /* Images.xcassets */; };
 		4A9ED4C51A5281FB00FD06DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ED4C31A5281FB00FD06DD /* LaunchScreen.xib */; };
@@ -75,8 +74,6 @@
 		4A9ED4B61A5281FB00FD06DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A9ED4B81A5281FB00FD06DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A9ED4BB1A5281FB00FD06DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A9ED4BC1A5281FB00FD06DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A9ED4BF1A5281FB00FD06DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A9ED4C11A5281FB00FD06DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A9ED4C41A5281FB00FD06DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -258,8 +255,6 @@
 				4A3BBE7C1C95802A000A349C /* Classes */,
 				4A9ED4B81A5281FB00FD06DD /* AppDelegate.h */,
 				4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */,
-				4A9ED4BB1A5281FB00FD06DD /* ViewController.h */,
-				4A9ED4BC1A5281FB00FD06DD /* ViewController.m */,
 				4A9ED4BE1A5281FB00FD06DD /* Main.storyboard */,
 				4A9ED4C11A5281FB00FD06DD /* Images.xcassets */,
 				4A9ED4C31A5281FB00FD06DD /* LaunchScreen.xib */,
@@ -491,7 +486,6 @@
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
-				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
