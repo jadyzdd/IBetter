@@ -10,6 +10,8 @@
 #import "IBMViewControllerProtocol.h"
 @interface ViewController : UIViewController
 
+@property (nonatomic,assign) UIColor *backgroundColor UI_APPEARANCE_SELECTOR;
+
 @property (nonatomic,weak) id<IBMRootViewControllerProtocol> ibmRootProtocol;
 
 @end
