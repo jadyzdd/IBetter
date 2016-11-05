@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		093258A21DBBAF4300DDE765 /* IBMHomeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */; };
+		09C54FAF1DCD8DD900DECD18 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FAE1DCD8DD900DECD18 /* UIViewController+Addition.m */; };
 		4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */; };
 		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController1.h; sourceTree = "<group>"; };
 		093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController1.m; sourceTree = "<group>"; };
+		09C54FAD1DCD8DD900DECD18 /* UIViewController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Addition.h"; path = "../../../../../../../Documents/UIViewController+Addition.h"; sourceTree = "<group>"; };
+		09C54FAE1DCD8DD900DECD18 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Addition.m"; path = "../../../../../../../Documents/UIViewController+Addition.m"; sourceTree = "<group>"; };
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 		09898A541DCA188D0083B28A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				09C54FAD1DCD8DD900DECD18 /* UIViewController+Addition.h */,
+				09C54FAE1DCD8DD900DECD18 /* UIViewController+Addition.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -477,6 +482,7 @@
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
 				4A9ED4BD1A5281FB00FD06DD /* ViewController.m in Sources */,
+				09C54FAF1DCD8DD900DECD18 /* UIViewController+Addition.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
