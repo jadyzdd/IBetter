@@ -12,6 +12,8 @@
 		09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09C54FC61DCD90AE00DECD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC51DCD90AE00DECD18 /* ViewController.m */; };
 		09C54FC71DCD90AE00DECD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC51DCD90AE00DECD18 /* ViewController.m */; };
+		09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
+		09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
 		4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */; };
 		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
@@ -56,6 +58,9 @@
 		09C54FC41DCD90AE00DECD18 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		09C54FC51DCD90AE00DECD18 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09C54FC81DCD910E00DECD18 /* IBMViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMViewControllerProtocol.h; sourceTree = "<group>"; };
+		09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBaseViewControllers.h; sourceTree = "<group>"; };
+		09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBaseViewControllers.m; sourceTree = "<group>"; };
+		09EB7FCE1DCE09720094EC2B /* BViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewControllerProtocol.h; sourceTree = "<group>"; };
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
@@ -182,6 +187,7 @@
 		09EB7FC61DCE067D0094EC2B /* BControllers */ = {
 			isa = PBXGroup;
 			children = (
+				09EB7FC91DCE08CA0094EC2B /* BBaseViewControllers */,
 				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
 				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
 			);
@@ -193,6 +199,16 @@
 			children = (
 			);
 			path = BUtils;
+			sourceTree = "<group>";
+		};
+		09EB7FC91DCE08CA0094EC2B /* BBaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */,
+				09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */,
+				09EB7FCE1DCE09720094EC2B /* BViewControllerProtocol.h */,
+			);
+			path = BBaseViewControllers;
 			sourceTree = "<group>";
 		};
 		2B8602C0683C39DCAB9F54C0 /* Frameworks */ = {
@@ -524,6 +540,7 @@
 			files = (
 				09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */,
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
+				09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
@@ -547,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
 				09C54FC71DCD90AE00DECD18 /* ViewController.m in Sources */,
 				09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */,
 				4A9ED4D11A5281FB00FD06DD /* AttributorTests.m in Sources */,
