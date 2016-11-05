@@ -49,8 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController1.h; sourceTree = "<group>"; };
-		093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController1.m; sourceTree = "<group>"; };
+		093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBMHomeViewController1.h; path = ../../Controllers/HomeControllers/IBMHomeViewController1.h; sourceTree = "<group>"; };
+		093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IBMHomeViewController1.m; path = ../../Controllers/HomeControllers/IBMHomeViewController1.m; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
 		09C54FC41DCD90AE00DECD18 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
-		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController.h; sourceTree = "<group>"; };
-		4A3BBE801C958263000A349C /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController.m; sourceTree = "<group>"; };
+		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBMHomeViewController.h; path = ../../Controllers/HomeControllers/IBMHomeViewController.h; sourceTree = "<group>"; };
+		4A3BBE801C958263000A349C /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IBMHomeViewController.m; path = ../../Controllers/HomeControllers/IBMHomeViewController.m; sourceTree = "<group>"; };
 		4A3BBE821C9584C4000A349C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4A3BBE841C958B2D000A349C /* IBMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMUserViewController.h; sourceTree = "<group>"; };
 		4A3BBE851C958B2D000A349C /* IBMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMUserViewController.m; sourceTree = "<group>"; };
@@ -145,6 +145,56 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		09EB7FC21DCE05880094EC2B /* A */ = {
+			isa = PBXGroup;
+			children = (
+				09EB7FC41DCE061E0094EC2B /* AUtils */,
+				09EB7FC31DCE05C50094EC2B /* AControllers */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		09EB7FC31DCE05C50094EC2B /* AControllers */ = {
+			isa = PBXGroup;
+			children = (
+				093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */,
+				093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */,
+			);
+			path = AControllers;
+			sourceTree = "<group>";
+		};
+		09EB7FC41DCE061E0094EC2B /* AUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AUtils;
+			sourceTree = "<group>";
+		};
+		09EB7FC51DCE06420094EC2B /* B */ = {
+			isa = PBXGroup;
+			children = (
+				09EB7FC81DCE06990094EC2B /* BUtils */,
+				09EB7FC61DCE067D0094EC2B /* BControllers */,
+			);
+			path = B;
+			sourceTree = "<group>";
+		};
+		09EB7FC61DCE067D0094EC2B /* BControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
+				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
+			);
+			path = BControllers;
+			sourceTree = "<group>";
+		};
+		09EB7FC81DCE06990094EC2B /* BUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BUtils;
+			sourceTree = "<group>";
+		};
 		2B8602C0683C39DCAB9F54C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +219,8 @@
 		4A3BBE7C1C95802A000A349C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4AF1471F1D44AE6800C3BE56 /* Root */,
+				09EB7FC51DCE06420094EC2B /* B */,
+				09EB7FC21DCE05880094EC2B /* A */,
 				4A3BBE8D1C95A208000A349C /* Utils */,
 				4A3BBE7D1C9581D9000A349C /* Controllers */,
 			);
@@ -189,10 +240,6 @@
 		4A3BBE7E1C958207000A349C /* HomeControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
-				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
-				093258A01DBBAF4300DDE765 /* IBMHomeViewController1.h */,
-				093258A11DBBAF4300DDE765 /* IBMHomeViewController1.m */,
 			);
 			path = HomeControllers;
 			sourceTree = "<group>";
@@ -311,13 +358,6 @@
 				4AD9A73F1D4F7D7A0097899B /* FMDatabaseQueue+Database.m */,
 			);
 			path = StorageUtil;
-			sourceTree = "<group>";
-		};
-		4AF1471F1D44AE6800C3BE56 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Root;
 			sourceTree = "<group>";
 		};
 		7A2BF7A151EF4A78122AA72D /* Pods */ = {
