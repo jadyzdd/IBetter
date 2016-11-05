@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BViewControllerProtocol.h"
 
 @interface BBaseViewControllers : UIViewController
+
+@property (nonatomic,assign) UIColor *backgroundColor UI_APPEARANCE_SELECTOR;
+
+@property (nonatomic,weak) id<BRootViewControllerDelegate> bRootVCDelegate;
 
 @end
