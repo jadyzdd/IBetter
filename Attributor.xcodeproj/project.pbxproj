@@ -15,11 +15,13 @@
 		09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
 		09EB7FD71DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FD61DCE0ED60094EC2B /* IBMHomeViewController1.m */; };
 		09EB7FD81DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FD61DCE0ED60094EC2B /* IBMHomeViewController1.m */; };
+		09EB7FDB1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FDA1DCE0F270094EC2B /* IBMHomeViewController.m */; };
+		09EB7FDC1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FDA1DCE0F270094EC2B /* IBMHomeViewController.m */; };
+		09EB7FDF1DCE0F970094EC2B /* IBMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FDE1DCE0F970094EC2B /* IBMBaseController.m */; };
+		09EB7FE01DCE0F970094EC2B /* IBMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FDE1DCE0F970094EC2B /* IBMBaseController.m */; };
 		4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */; };
-		4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE801C958263000A349C /* IBMHomeViewController.m */; };
 		4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE851C958B2D000A349C /* IBMUserViewController.m */; };
 		4A3BBE881C958B2D000A349C /* IBMUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */; };
-		4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE8B1C958C88000A349C /* IBMBaseController.m */; };
 		4A3BBE901C95A21A000A349C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BBE8F1C95A21A000A349C /* Constants.m */; };
 		4A9ED4B71A5281FB00FD06DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B61A5281FB00FD06DD /* main.m */; };
 		4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ED4B91A5281FB00FD06DD /* AppDelegate.m */; };
@@ -62,17 +64,17 @@
 		09EB7FCE1DCE09720094EC2B /* BViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewControllerProtocol.h; sourceTree = "<group>"; };
 		09EB7FD51DCE0ED60094EC2B /* IBMHomeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController1.h; sourceTree = "<group>"; };
 		09EB7FD61DCE0ED60094EC2B /* IBMHomeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController1.m; sourceTree = "<group>"; };
+		09EB7FD91DCE0F270094EC2B /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMHomeViewController.h; sourceTree = "<group>"; };
+		09EB7FDA1DCE0F270094EC2B /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMHomeViewController.m; sourceTree = "<group>"; };
+		09EB7FDD1DCE0F970094EC2B /* IBMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMBaseController.h; sourceTree = "<group>"; };
+		09EB7FDE1DCE0F970094EC2B /* IBMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMBaseController.m; sourceTree = "<group>"; };
 		2FF61D757349CE54555913BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4A0782FA1D44BF50007A2E64 /* IBMStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMStringUtils.h; sourceTree = "<group>"; };
 		4A0782FB1D44BF50007A2E64 /* IBMStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMStringUtils.m; sourceTree = "<group>"; };
-		4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBMHomeViewController.h; path = ../../Controllers/HomeControllers/IBMHomeViewController.h; sourceTree = "<group>"; };
-		4A3BBE801C958263000A349C /* IBMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IBMHomeViewController.m; path = ../../Controllers/HomeControllers/IBMHomeViewController.m; sourceTree = "<group>"; };
 		4A3BBE821C9584C4000A349C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4A3BBE841C958B2D000A349C /* IBMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMUserViewController.h; sourceTree = "<group>"; };
 		4A3BBE851C958B2D000A349C /* IBMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMUserViewController.m; sourceTree = "<group>"; };
 		4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBMUserViewController.xib; sourceTree = "<group>"; };
-		4A3BBE8A1C958C88000A349C /* IBMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMBaseController.h; sourceTree = "<group>"; };
-		4A3BBE8B1C958C88000A349C /* IBMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMBaseController.m; sourceTree = "<group>"; };
 		4A3BBE8E1C95A21A000A349C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4A3BBE8F1C95A21A000A349C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		4A9ED4B11A5281FB00FD06DD /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,8 +167,6 @@
 			children = (
 				09EB7FD31DCE0D2A0094EC2B /* AHomeViewControllers */,
 				09EB7FD21DCE0D050094EC2B /* ABaseViewControllers */,
-				4A3BBE7F1C958263000A349C /* IBMHomeViewController.h */,
-				4A3BBE801C958263000A349C /* IBMHomeViewController.m */,
 			);
 			path = AControllers;
 			sourceTree = "<group>";
@@ -216,6 +216,8 @@
 		09EB7FD21DCE0D050094EC2B /* ABaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				09EB7FDD1DCE0F970094EC2B /* IBMBaseController.h */,
+				09EB7FDE1DCE0F970094EC2B /* IBMBaseController.m */,
 			);
 			path = ABaseViewControllers;
 			sourceTree = "<group>";
@@ -223,6 +225,8 @@
 		09EB7FD31DCE0D2A0094EC2B /* AHomeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				09EB7FD91DCE0F270094EC2B /* IBMHomeViewController.h */,
+				09EB7FDA1DCE0F270094EC2B /* IBMHomeViewController.m */,
 			);
 			path = AHomeViewControllers;
 			sourceTree = "<group>";
@@ -271,18 +275,9 @@
 		4A3BBE7D1C9581D9000A349C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4A3BBE891C958C3F000A349C /* BaseControllers */,
 				4A3BBE831C958AEB000A349C /* LoginControllers */,
-				4A3BBE7E1C958207000A349C /* HomeControllers */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		4A3BBE7E1C958207000A349C /* HomeControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HomeControllers;
 			sourceTree = "<group>";
 		};
 		4A3BBE831C958AEB000A349C /* LoginControllers */ = {
@@ -293,15 +288,6 @@
 				4A3BBE861C958B2D000A349C /* IBMUserViewController.xib */,
 			);
 			path = LoginControllers;
-			sourceTree = "<group>";
-		};
-		4A3BBE891C958C3F000A349C /* BaseControllers */ = {
-			isa = PBXGroup;
-			children = (
-				4A3BBE8A1C958C88000A349C /* IBMBaseController.h */,
-				4A3BBE8B1C958C88000A349C /* IBMBaseController.m */,
-			);
-			path = BaseControllers;
 			sourceTree = "<group>";
 		};
 		4A3BBE8D1C95A208000A349C /* Utils */ = {
@@ -565,7 +551,9 @@
 			files = (
 				09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */,
 				09EB7FD71DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */,
+				09EB7FDB1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */,
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
+				09EB7FDF1DCE0F970094EC2B /* IBMBaseController.m in Sources */,
 				09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
@@ -574,14 +562,12 @@
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
 				09C54FC61DCD90AE00DECD18 /* ViewController.m in Sources */,
 				4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */,
-				4A3BBE811C958263000A349C /* IBMHomeViewController.m in Sources */,
 				4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,
-				4A3BBE8C1C958C88000A349C /* IBMBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +575,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EB7FE01DCE0F970094EC2B /* IBMBaseController.m in Sources */,
+				09EB7FDC1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */,
 				09EB7FD81DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */,
 				09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
 				09C54FC71DCD90AE00DECD18 /* ViewController.m in Sources */,
