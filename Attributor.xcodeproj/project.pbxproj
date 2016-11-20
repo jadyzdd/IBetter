@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */; };
+		0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB331DE1AA46009F1DE5 /* TabBar.m */; };
+		0940FB351DE1AA46009F1DE5 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB331DE1AA46009F1DE5 /* TabBar.m */; };
+		0940FB381DE1AA77009F1DE5 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB371DE1AA77009F1DE5 /* TabBarItem.m */; };
+		0940FB391DE1AA77009F1DE5 /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB371DE1AA77009F1DE5 /* TabBarItem.m */; };
+		0940FB3C1DE1AB97009F1DE5 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */; };
+		0940FB3D1DE1AB97009F1DE5 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */; };
+		0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
+		0940FB411DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
 		09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
-		09C54FC61DCD90AE00DECD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC51DCD90AE00DECD18 /* ViewController.m */; };
-		09C54FC71DCD90AE00DECD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC51DCD90AE00DECD18 /* ViewController.m */; };
 		09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
 		09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
 		09EB7FD71DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FD61DCE0ED60094EC2B /* IBMHomeViewController1.m */; };
@@ -54,11 +61,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0940FB2C1DE1A79B009F1DE5 /* IBMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMRootViewController.h; sourceTree = "<group>"; };
+		0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMRootViewController.m; sourceTree = "<group>"; };
+		0940FB321DE1AA46009F1DE5 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		0940FB331DE1AA46009F1DE5 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		0940FB361DE1AA77009F1DE5 /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
+		0940FB371DE1AA77009F1DE5 /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
+		0940FB3A1DE1AB97009F1DE5 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		0940FB3E1DE1B9A4009F1DE5 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
-		09C54FC41DCD90AE00DECD18 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09C54FC51DCD90AE00DECD18 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		09C54FC81DCD910E00DECD18 /* IBMViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMViewControllerProtocol.h; sourceTree = "<group>"; };
 		09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBaseViewControllers.h; sourceTree = "<group>"; };
 		09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBaseViewControllers.m; sourceTree = "<group>"; };
 		09EB7FCE1DCE09720094EC2B /* BViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewControllerProtocol.h; sourceTree = "<group>"; };
@@ -134,23 +148,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0940FB301DE1A913009F1DE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0940FB311DE1AA35009F1DE5 /* TabBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0940FB311DE1AA35009F1DE5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0940FB321DE1AA46009F1DE5 /* TabBar.h */,
+				0940FB331DE1AA46009F1DE5 /* TabBar.m */,
+				0940FB361DE1AA77009F1DE5 /* TabBarItem.h */,
+				0940FB371DE1AA77009F1DE5 /* TabBarItem.m */,
+				0940FB3A1DE1AB97009F1DE5 /* BadgeView.h */,
+				0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		09C54FB61DCD8F5E00DECD18 /* Categoty */ = {
 			isa = PBXGroup;
 			children = (
 				09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */,
 				09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */,
+				0940FB3E1DE1B9A4009F1DE5 /* UIView+Additions.h */,
+				0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */,
 			);
 			path = Categoty;
 			sourceTree = "<group>";
 		};
-		09C54FC31DCD90A100DECD18 /* Common */ = {
+		09E216A81DCE1C2000C51D82 /* BRootViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				09C54FC41DCD90AE00DECD18 /* ViewController.h */,
-				09C54FC51DCD90AE00DECD18 /* ViewController.m */,
-				09C54FC81DCD910E00DECD18 /* IBMViewControllerProtocol.h */,
+				0940FB2C1DE1A79B009F1DE5 /* IBMRootViewController.h */,
+				0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */,
 			);
-			path = Common;
+			path = BRootViewControllers;
 			sourceTree = "<group>";
 		};
 		09EB7FC21DCE05880094EC2B /* A */ = {
@@ -181,6 +217,7 @@
 		09EB7FC51DCE06420094EC2B /* B */ = {
 			isa = PBXGroup;
 			children = (
+				0940FB301DE1A913009F1DE5 /* View */,
 				09EB7FC81DCE06990094EC2B /* BUtils */,
 				09EB7FC61DCE067D0094EC2B /* BControllers */,
 			);
@@ -190,6 +227,7 @@
 		09EB7FC61DCE067D0094EC2B /* BControllers */ = {
 			isa = PBXGroup;
 			children = (
+				09E216A81DCE1C2000C51D82 /* BRootViewControllers */,
 				09EB7FD41DCE0EA40094EC2B /* BHomeViewControllers */,
 				09EB7FC91DCE08CA0094EC2B /* BBaseViewControllers */,
 			);
@@ -293,7 +331,6 @@
 		4A3BBE8D1C95A208000A349C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				09C54FC31DCD90A100DECD18 /* Common */,
 				09C54FB61DCD8F5E00DECD18 /* Categoty */,
 				4AAEAB221D44C3FE009CBD0A /* StorageUtil */,
 				4A0782F91D44BF3A007A2E64 /* StringUtil */,
@@ -554,19 +591,23 @@
 				09EB7FDB1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */,
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
 				09EB7FDF1DCE0F970094EC2B /* IBMBaseController.m in Sources */,
+				0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */,
+				0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */,
 				09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
-				09C54FC61DCD90AE00DECD18 /* ViewController.m in Sources */,
 				4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */,
+				0940FB381DE1AA77009F1DE5 /* TabBarItem.m in Sources */,
 				4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
+				0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
+				0940FB3C1DE1AB97009F1DE5 /* BadgeView.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,10 +618,13 @@
 			files = (
 				09EB7FE01DCE0F970094EC2B /* IBMBaseController.m in Sources */,
 				09EB7FDC1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */,
+				0940FB391DE1AA77009F1DE5 /* TabBarItem.m in Sources */,
 				09EB7FD81DCE0ED60094EC2B /* IBMHomeViewController1.m in Sources */,
+				0940FB3D1DE1AB97009F1DE5 /* BadgeView.m in Sources */,
 				09EB7FCD1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
-				09C54FC71DCD90AE00DECD18 /* ViewController.m in Sources */,
+				0940FB351DE1AA46009F1DE5 /* TabBar.m in Sources */,
 				09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */,
+				0940FB411DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */,
 				4A9ED4D11A5281FB00FD06DD /* AttributorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -703,7 +747,9 @@
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -719,7 +765,9 @@
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
