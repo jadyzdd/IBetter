@@ -9,6 +9,10 @@
 #import "TabBarItem.h"
 #import "UIView+Additions.h"
 
+@implementation TabbarItemContent
+
+@end
+
 @implementation TabBarItem
 
 - (instancetype) initWithFrame:(CGRect)frame{

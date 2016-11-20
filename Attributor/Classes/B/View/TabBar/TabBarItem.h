@@ -6,6 +6,7 @@
 //  Copyright © 2016年 张栋栋. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "BadgeView.h"
 

@@ -109,31 +109,31 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
 - (TabBarItem *)createTabBarItemAt:(NSInteger)index{
 
     TabBarItem *tabBarItem = [[TabBarItem alloc] init];
-//    TabbarItemContent *itemContent = [[TabbarItemContent alloc] init];
-//    itemContent.index = index;
-//    itemContent.titleColor = [UIColor blackColor];
+    TabbarItemContent *itemContent = [[TabbarItemContent alloc] init];
+    itemContent.index = index;
+    itemContent.titleColor = [UIColor blackColor];
     switch (index) {
         case IBMTabBarHomeIndex:
-//            itemContent.title = @"首页";
-//            itemContent.normalImage = [UIImage imageNamed:@""];
-//            itemContent.highlightImage = [UIImage imageNamed:@""];
-//            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.title = @"首页";
+            itemContent.normalImage = [UIImage imageNamed:@""];
+            itemContent.highlightImage = [UIImage imageNamed:@""];
+            itemContent.refreshImage = [UIImage imageNamed:@""];
             break;
         case IBMTabBarFocusIndex:
-//            itemContent.title = @"首页";
-//            itemContent.normalImage = [UIImage imageNamed:@""];
-//            itemContent.highlightImage = [UIImage imageNamed:@""];
-//            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.title = @"首页";
+            itemContent.normalImage = [UIImage imageNamed:@""];
+            itemContent.highlightImage = [UIImage imageNamed:@""];
+            itemContent.refreshImage = [UIImage imageNamed:@""];
             break;
         case IBMTabBarMyIndex:
-//            itemContent.title = @"首页";
-//            itemContent.normalImage = [UIImage imageNamed:@""];
-//            itemContent.highlightImage = [UIImage imageNamed:@""];
-//            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.title = @"首页";
+            itemContent.normalImage = [UIImage imageNamed:@""];
+            itemContent.highlightImage = [UIImage imageNamed:@""];
+            itemContent.refreshImage = [UIImage imageNamed:@""];
             break;
     }
     
-//    tabBarItem.tabBarItemContent = itemContent;
+    tabBarItem.tabBarItemContent = itemContent;
     return tabBarItem;
 }
 
