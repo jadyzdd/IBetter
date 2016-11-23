@@ -144,21 +144,19 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     switch (index) {
         case IBMTabBarHomeIndex:
             itemContent.title = @"首页";
-            itemContent.normalImage = [UIImage imageNamed:@""];
-            itemContent.highlightImage = [UIImage imageNamed:@""];
-            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.normalImage = [UIImage imageNamed:@"tabbar_home"];
+            itemContent.highlightImage = [UIImage imageNamed:@"tabbar_home_HL"];
+            itemContent.refreshImage = [UIImage imageNamed:@"tabbar_refresh"];
             break;
         case IBMTabBarFocusIndex:
             itemContent.title = @"首页2";
-            itemContent.normalImage = [UIImage imageNamed:@""];
-            itemContent.highlightImage = [UIImage imageNamed:@""];
-            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.normalImage = [UIImage imageNamed:@"tabbar_focus"];
+            itemContent.highlightImage = [UIImage imageNamed:@"tabbar_focus_HL"];
             break;
         case IBMTabBarMyIndex:
             itemContent.title = @"首页3";
-            itemContent.normalImage = [UIImage imageNamed:@""];
-            itemContent.highlightImage = [UIImage imageNamed:@""];
-            itemContent.refreshImage = [UIImage imageNamed:@""];
+            itemContent.normalImage = [UIImage imageNamed:@"tabbar_my"];
+            itemContent.highlightImage = [UIImage imageNamed:@"tabbar_my_HL"];
             break;
     }
     

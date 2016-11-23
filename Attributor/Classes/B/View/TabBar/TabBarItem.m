@@ -36,7 +36,7 @@
         _badgeView;
     }) layout:UILayoutRT offset:CGSizeMake(60, 6)];
     
-    self.imageView.contentMode = UIViewContentModeScaleToFill;
+    self.imageView.contentMode = UIViewContentModeScaleAspectFit;
 }
 
 - (void) setTabBarItemContent:(TabbarItemContent *)tabBarItemContent{
