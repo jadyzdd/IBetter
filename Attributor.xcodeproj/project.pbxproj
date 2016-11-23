@@ -16,6 +16,7 @@
 		0940FB3D1DE1AB97009F1DE5 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */; };
 		0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
 		0940FB411DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
+		0945B12B1DE331240050782C /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0945B12A1DE331240050782C /* BaseNavigationController.m */; };
 		09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */; };
@@ -71,6 +72,8 @@
 		0940FB3B1DE1AB97009F1DE5 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
 		0940FB3E1DE1B9A4009F1DE5 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		0945B1291DE331240050782C /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		0945B12A1DE331240050782C /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
 		09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBaseViewControllers.h; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 				09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */,
 				09EB7FCB1DCE09320094EC2B /* BBaseViewControllers.m */,
 				09EB7FCE1DCE09720094EC2B /* BViewControllerProtocol.h */,
+				0945B1291DE331240050782C /* BaseNavigationController.h */,
+				0945B12A1DE331240050782C /* BaseNavigationController.m */,
 			);
 			path = BBaseViewControllers;
 			sourceTree = "<group>";
@@ -606,6 +611,7 @@
 				0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
+				0945B12B1DE331240050782C /* BaseNavigationController.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
 				0940FB3C1DE1AB97009F1DE5 /* BadgeView.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,

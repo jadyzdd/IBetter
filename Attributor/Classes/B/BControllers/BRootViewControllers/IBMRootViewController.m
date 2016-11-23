@@ -9,6 +9,8 @@
 #import "IBMRootViewController.h"
 #import "IBMUserViewController.h"
 #import "UIViewController+Additions.h"
+#import "IBMUserViewController.h"
+#import "BaseNavigationController.h"
 #import "TabBar.h"
 #import "TabBarItem.h"
 
@@ -55,13 +57,16 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
     //TODO load data
     
+    [self loadTabBarViewController];
+    
     _tabBar = [[TabBar alloc]initWithFrame:self.tabBar.bounds];
     _tabBar.delegate = self;
     [self loadTabBarItems];
     [self.tabBar addSubview:_tabBar];
     [self.view bringSubviewToFront:_tabBar];
     
-    
+    [_tabBar setTabBarSelectedIndex:IBMTabBarHomeIndex];
+
     
 }
 
@@ -69,7 +74,23 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
     IBMUserViewController *vc1 = IBMUserViewController.new;
     vc1.hidesBottomBarWhenPushed = YES;
+    [vc1 setNavigationBarTitle:@"首页"];
+    BaseNavigationController *nav1 = [[BaseNavigationController alloc] initWithRootViewController:vc1];
     
+    
+    IBMUserViewController *vc2 = IBMUserViewController.new;
+    vc2.hidesBottomBarWhenPushed = YES;
+    [vc2 setNavigationBarTitle:@"副业"];
+    BaseNavigationController *nav2 = [[BaseNavigationController alloc] initWithRootViewController:vc2];
+    
+    
+    IBMUserViewController *vc3 = IBMUserViewController.new;
+    vc3.hidesBottomBarWhenPushed = YES;
+    [vc3 setNavigationBarTitle:@"三爷"];
+    BaseNavigationController *nav3 = [[BaseNavigationController alloc] initWithRootViewController:vc3];
+    
+    
+    self.viewControllers = @[nav1,nav2,nav3];
     
 }
 
@@ -98,6 +119,14 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
 }
 
 
+- (void)loadTabBarViewControllers{
+
+    IBMUserViewController *vc1 = IBMUserViewController.new;
+    vc1.hidesBottomBarWhenPushed = NO;
+
+}
+
+
 - (void)loadTabBarItems{
 
     TabBarItem *tab1 = [self createTabBarItemAt:IBMTabBarHomeIndex];
@@ -120,13 +149,13 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
             itemContent.refreshImage = [UIImage imageNamed:@""];
             break;
         case IBMTabBarFocusIndex:
-            itemContent.title = @"首页";
+            itemContent.title = @"首页2";
             itemContent.normalImage = [UIImage imageNamed:@""];
             itemContent.highlightImage = [UIImage imageNamed:@""];
             itemContent.refreshImage = [UIImage imageNamed:@""];
             break;
         case IBMTabBarMyIndex:
-            itemContent.title = @"首页";
+            itemContent.title = @"首页3";
             itemContent.normalImage = [UIImage imageNamed:@""];
             itemContent.highlightImage = [UIImage imageNamed:@""];
             itemContent.refreshImage = [UIImage imageNamed:@""];

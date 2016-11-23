@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IBMRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,8 +25,8 @@
     [[UINavigationBar appearance] setTintColor:tintColor];
     [[UIToolbar appearance] setTintColor:tintColor];
     
-    _homeController = [[IBMHomeViewController alloc] init];
-    self.window.rootViewController = _homeController;
+    _rootController = [[IBMRootViewController alloc] init];
+    self.window.rootViewController = _rootController;
     [self.window makeKeyAndVisible];
     
     return YES;

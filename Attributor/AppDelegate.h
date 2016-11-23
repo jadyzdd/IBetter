@@ -8,12 +8,15 @@
 
 #import "IBMHomeViewController.h"
 
+#import "IBMRootViewController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (nonatomic,strong) IBMHomeViewController *homeController;
 
+@property (nonatomic,strong) IBMRootViewController *rootController;
 
 @end
 
