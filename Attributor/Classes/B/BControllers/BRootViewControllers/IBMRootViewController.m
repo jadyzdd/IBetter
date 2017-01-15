@@ -57,7 +57,7 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
     //TODO load data
     
-    [self loadTabBarViewController];
+    [self loadTabBarViewControllers];
     
     _tabBar = [[TabBar alloc]initWithFrame:self.tabBar.bounds];
     _tabBar.delegate = self;
@@ -70,7 +70,7 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
 }
 
--(void)loadTabBarViewController{
+-(void)loadTabBarViewControllers{
     
     IBMUserViewController *vc1 = IBMUserViewController.new;
     vc1.hidesBottomBarWhenPushed = YES;
@@ -119,14 +119,6 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
 }
 
 
-- (void)loadTabBarViewControllers{
-
-    IBMUserViewController *vc1 = IBMUserViewController.new;
-    vc1.hidesBottomBarWhenPushed = NO;
-
-}
-
-
 - (void)loadTabBarItems{
 
     TabBarItem *tab1 = [self createTabBarItemAt:IBMTabBarHomeIndex];
@@ -162,6 +154,27 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
     tabBarItem.tabBarItemContent = itemContent;
     return tabBarItem;
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(NSInteger )index{
+
+    switch (index) {
+        case IBMTabBarHomeIndex:
+            //log
+            break;
+        case IBMTabBarFocusIndex:
+            
+            break;
+        case IBMTabBarMyIndex:
+            
+            break;
+        default:
+            break;
+    }
+    
+    if (index == self.selectedIndex) {
+//        BaseNavigationController * naviVC =
+    }
 }
 
 @end

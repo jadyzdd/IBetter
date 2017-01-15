@@ -74,6 +74,7 @@
 		0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		0945B1291DE331240050782C /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		0945B12A1DE331240050782C /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		0964CBBE1DE5DBA700427436 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
 		09EB7FCA1DCE09320094EC2B /* BBaseViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBaseViewControllers.h; sourceTree = "<group>"; };
@@ -341,6 +342,7 @@
 				4A0782F91D44BF3A007A2E64 /* StringUtil */,
 				4A3BBE8E1C95A21A000A349C /* Constants.h */,
 				4A3BBE8F1C95A21A000A349C /* Constants.m */,
+				0964CBBE1DE5DBA700427436 /* AppMacros.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
