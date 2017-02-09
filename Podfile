@@ -4,6 +4,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios,'7.0'
 
+target 'Attributor' do
+
 pod 'AFNetworking',             '~> 2.6.0'
 pod 'RATreeView',               '~> 0.2.2'
 pod 'MBProgressHUD', 			'~> 0.8'
@@ -24,7 +26,13 @@ pod 'HMSegmentedControl',       '~> 1.4.0'
 #pod 'Koala',                    '~> 0.0.8'
 
 
+#GYHttpMock 重定向
+pod 'GYHttpMock',               '~>  1.0.1'
+
+
 
 pod 'MTStatusBarOverlay',       '~> 0.9.1'
 pod 'Nimbus',                   '~> 1.3.0'
 pod 'FMDB',                     '~> 2.6.2'
+
+end
