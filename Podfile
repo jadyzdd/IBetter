@@ -22,6 +22,8 @@ pod 'OrderedDictionary',        '~> 1.2'
 pod 'HMSegmentedControl',       '~> 1.4.0'
 pod 'YYCache',                  '~> 1.0.2'
 
+pod 'MJExtension',              '~> 3.0.11'
+
 #GYHttpMock 重定向
 pod 'GYHttpMock',               '~> 1.0.1'
 pod 'Reachability',             '~> 3.1.1'

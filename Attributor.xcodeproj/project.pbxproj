@@ -16,6 +16,8 @@
 		091B5A5C1E5A03C000484423 /* SYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A511E5A03C000484423 /* SYNetworkConfig.m */; };
 		091B5A5D1E5A03C000484423 /* SYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A531E5A03C000484423 /* SYNetworkManager.m */; };
 		091B5A5E1E5A03C000484423 /* SYNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A551E5A03C000484423 /* SYNetworkUtil.m */; };
+		091B5A621E5A054900484423 /* IBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A611E5A054900484423 /* IBRequest.m */; };
+		091B5A661E5A066900484423 /* Meizi.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A651E5A066900484423 /* Meizi.m */; };
 		0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */; };
 		0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB331DE1AA46009F1DE5 /* TabBar.m */; };
 		0940FB351DE1AA46009F1DE5 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB331DE1AA46009F1DE5 /* TabBar.m */; };
@@ -95,6 +97,10 @@
 		091B5A531E5A03C000484423 /* SYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkManager.m; sourceTree = "<group>"; };
 		091B5A541E5A03C000484423 /* SYNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworkUtil.h; sourceTree = "<group>"; };
 		091B5A551E5A03C000484423 /* SYNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkUtil.m; sourceTree = "<group>"; };
+		091B5A601E5A054900484423 /* IBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBRequest.h; sourceTree = "<group>"; };
+		091B5A611E5A054900484423 /* IBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBRequest.m; sourceTree = "<group>"; };
+		091B5A641E5A066900484423 /* Meizi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meizi.h; sourceTree = "<group>"; };
+		091B5A651E5A066900484423 /* Meizi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meizi.m; sourceTree = "<group>"; };
 		0940FB2C1DE1A79B009F1DE5 /* IBMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMRootViewController.h; sourceTree = "<group>"; };
 		0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMRootViewController.m; sourceTree = "<group>"; };
 		0940FB321DE1AA46009F1DE5 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
@@ -222,6 +228,24 @@
 				091B5A551E5A03C000484423 /* SYNetworkUtil.m */,
 			);
 			path = SYNetWork;
+			sourceTree = "<group>";
+		};
+		091B5A5F1E5A052900484423 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				091B5A601E5A054900484423 /* IBRequest.h */,
+				091B5A611E5A054900484423 /* IBRequest.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		091B5A631E5A065B00484423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				091B5A641E5A066900484423 /* Meizi.h */,
+				091B5A651E5A066900484423 /* Meizi.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0940FB301DE1A913009F1DE5 /* View */ = {
@@ -425,6 +449,8 @@
 		4A3BBE7C1C95802A000A349C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				091B5A631E5A065B00484423 /* Model */,
+				091B5A5F1E5A052900484423 /* Service */,
 				098AA0F91E4CDBEB00693659 /* NetWork */,
 				09EB7FC51DCE06420094EC2B /* B */,
 				09EB7FC21DCE05880094EC2B /* A */,
@@ -719,10 +745,12 @@
 				091B5A581E5A03C000484423 /* SYBatchRequestManager.m in Sources */,
 				09EB7FDF1DCE0F970094EC2B /* IBMBaseController.m in Sources */,
 				0946D3791E59F5A900E4943E /* IBSDWebImagePlugin.m in Sources */,
+				091B5A661E5A066900484423 /* Meizi.m in Sources */,
 				0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */,
 				0946D3731E59F58300E4943E /* ANManager.m in Sources */,
 				0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */,
 				09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
+				091B5A621E5A054900484423 /* IBRequest.m in Sources */,
 				091B5A5C1E5A03C000484423 /* SYNetworkConfig.m in Sources */,
 				0946D3751E59F58300E4943E /* ANResponse.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,

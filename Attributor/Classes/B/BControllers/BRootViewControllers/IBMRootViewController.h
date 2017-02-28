@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "BViewControllerProtocol.h"
+#import "IBRequest.h"
 
 @interface IBMRootViewController : UITabBarController<UINavigationControllerDelegate>
 
 @property (nonatomic,strong) UIView *edgeWind;
+@property (nonatomic, assign) MeiziCategory category;
 
 + (instancetype)sharedInstance;
 
