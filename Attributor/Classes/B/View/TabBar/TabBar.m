@@ -43,8 +43,8 @@
 
     NSInteger index = [_tabBarItems indexOfObject:tabBarItem];
     [self setTabBarSelectedIndex:index];
-    if (!_delegate && [_delegate respondsToSelector:@selector(tabBar:didSelectItem:)]) {
-        [_delegate tabBar:self didSelectItem:index];
+    if (_delegate && [_delegate respondsToSelector:@selector(tabBar:didSelectAtIndex:)]) {
+        [_delegate tabBar:self didSelectAtIndex:index];
     }
 }
 

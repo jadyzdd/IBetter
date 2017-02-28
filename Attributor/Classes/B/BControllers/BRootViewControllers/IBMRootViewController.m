@@ -81,19 +81,19 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
 -(void)loadTabBarViewControllers{
     
     IBMUserViewController *vc1 = IBMUserViewController.new;
-    vc1.hidesBottomBarWhenPushed = YES;
+    vc1.hidesBottomBarWhenPushed = NO;
     [vc1 setNavigationBarTitle:@"首页"];
     BaseNavigationController *nav1 = [[BaseNavigationController alloc] initWithRootViewController:vc1];
     
     
     IBMUserViewController *vc2 = IBMUserViewController.new;
-    vc2.hidesBottomBarWhenPushed = YES;
+    vc2.hidesBottomBarWhenPushed = NO;
     [vc2 setNavigationBarTitle:@"副业"];
     BaseNavigationController *nav2 = [[BaseNavigationController alloc] initWithRootViewController:vc2];
     
     
     IBMUserViewController *vc3 = IBMUserViewController.new;
-    vc3.hidesBottomBarWhenPushed = YES;
+    vc3.hidesBottomBarWhenPushed = NO;
     [vc3 setNavigationBarTitle:@"三爷"];
     BaseNavigationController *nav3 = [[BaseNavigationController alloc] initWithRootViewController:vc3];
     
@@ -164,7 +164,15 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     return tabBarItem;
 }
 
-- (void)tabBar:(UITabBar *)tabBar didSelectItem:(NSInteger )index{
+- (void)setTabBarBadge:(NSInteger)number AtIndex:(NSInteger)index{
+
+    TabBarItem *tabBarItem  = [_tabBar tabBarItemAtIndex:index];
+    if (tabBarItem) {
+        tabBarItem.badgeView.number = index;
+    }
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectAtIndex:(NSInteger )index{
 
     switch (index) {
         case IBMTabBarHomeIndex:
@@ -179,10 +187,8 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
         default:
             break;
     }
-    
-    if (index == self.selectedIndex) {
-//        BaseNavigationController * naviVC =
-    }
+    self.selectedIndex = index;
+    [self setTabBarBadge:0 AtIndex:index];
 }
 
 @end

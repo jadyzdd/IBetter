@@ -27,6 +27,6 @@
 
 @protocol  TabBarDelegate <NSObject>
 
-- (void) tabBar:(TabBar *)tabBar didSelectItem:(NSInteger )item;
+- (void) tabBar:(TabBar *)tabBar didSelectAtIndex:(NSInteger )item;
 
 @end

@@ -20,11 +20,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    UIColor *tintColor = [UIColor redColor];
-    [[UITabBar appearance] setTintColor:tintColor];
-    [[UINavigationBar appearance] setTintColor:tintColor];
-    [[UIToolbar appearance] setTintColor:tintColor];
-    
     _rootController = [[IBMRootViewController alloc] init];
     self.window.rootViewController = _rootController;
     [self.window makeKeyAndVisible];
