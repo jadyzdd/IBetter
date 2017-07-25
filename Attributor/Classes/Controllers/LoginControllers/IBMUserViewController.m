@@ -7,6 +7,7 @@
 //
 
 #import "IBMUserViewController.h"
+#import "HHNormalAPIManager.h"
 
 
 @interface IBMUserViewController ()
@@ -36,6 +37,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.pageLogName = @"mainViewLogout";
+    [self normalRequest];
 //    _tipView.textColor = [UIColor colorWithRGBHex:0xf18600];
 }
 
@@ -48,6 +50,29 @@
 //    DSScanViewController *scanVC = [[DSScanViewController alloc] initWithType:kDSScanTypeLogin];
 //    scanVC.hidesBottomBarWhenPushed = YES;
 //    [self.navigationController pushViewController:scanVC animated:YES];
+}
+
+
+- (void)normalRequest {
+    
+    [[HHNormalAPIManager new] fetchNearLiveListWithUserId:133825214 isWomen:YES completionHandler:^(NSError *error, id result) {
+        if (!error) {
+            
+            for (NSString *live in result) {
+                NSLog(@"%@", live);
+            }
+        } else {
+            
+            //            switch (error.code) {
+            //                case <#constant#>:
+            //                    <#statements#>
+            //                    break;
+            //
+            //                default:
+            //                    break;
+            //            }
+        }
+    }];
 }
 
 
