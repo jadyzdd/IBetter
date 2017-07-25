@@ -66,14 +66,7 @@ typedef NS_ENUM(NSInteger,IBMTabBarIndex) {
     
     [_tabBar setTabBarSelectedIndex:IBMTabBarHomeIndex];
     
-    [IBRequest requestWithPage:1 category:self.category success:^(NSArray<Meizi *> *meiziArray) {
-        NSLog(@"requese success");
-//        [self.collectionView.mj_header endRefreshing];
-//        [self reloadDataWithMeiziArray:meiziArray emptyBeforeReload:YES];
-    } failure:^(NSString *message) {
-//        [SVProgressHUD showErrorWithStatus:message];
-//        [self.collectionView.mj_header endRefreshing];
-    }];
+
 
     
 }

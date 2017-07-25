@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091B5A561E5A03C000484423 /* SYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A441E5A03C000484423 /* SYBaseRequest.m */; };
-		091B5A571E5A03C000484423 /* SYBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A461E5A03C000484423 /* SYBatchRequest.m */; };
-		091B5A581E5A03C000484423 /* SYBatchRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A481E5A03C000484423 /* SYBatchRequestManager.m */; };
-		091B5A591E5A03C000484423 /* SYChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A4A1E5A03C000484423 /* SYChainRequest.m */; };
-		091B5A5A1E5A03C000484423 /* SYChainRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A4C1E5A03C000484423 /* SYChainRequestManager.m */; };
-		091B5A5B1E5A03C000484423 /* SYNetworkCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A4F1E5A03C000484423 /* SYNetworkCacheManager.m */; };
-		091B5A5C1E5A03C000484423 /* SYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A511E5A03C000484423 /* SYNetworkConfig.m */; };
-		091B5A5D1E5A03C000484423 /* SYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A531E5A03C000484423 /* SYNetworkManager.m */; };
-		091B5A5E1E5A03C000484423 /* SYNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A551E5A03C000484423 /* SYNetworkUtil.m */; };
-		091B5A621E5A054900484423 /* IBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A611E5A054900484423 /* IBRequest.m */; };
 		091B5A661E5A066900484423 /* Meizi.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B5A651E5A066900484423 /* Meizi.m */; };
 		0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB2D1DE1A79B009F1DE5 /* IBMRootViewController.m */; };
 		0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB331DE1AA46009F1DE5 /* TabBar.m */; };
@@ -28,11 +18,6 @@
 		0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
 		0940FB411DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */; };
 		0945B12B1DE331240050782C /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0945B12A1DE331240050782C /* BaseNavigationController.m */; };
-		0946D3721E59F58300E4943E /* ANError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0946D36A1E59F58300E4943E /* ANError.m */; };
-		0946D3731E59F58300E4943E /* ANManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0946D36C1E59F58300E4943E /* ANManager.m */; };
-		0946D3741E59F58300E4943E /* ANRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0946D36F1E59F58300E4943E /* ANRequest.m */; };
-		0946D3751E59F58300E4943E /* ANResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0946D3711E59F58300E4943E /* ANResponse.m */; };
-		0946D3791E59F5A900E4943E /* IBSDWebImagePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0946D3781E59F5A900E4943E /* IBSDWebImagePlugin.m */; };
 		09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09CEDE921E65F0D00094DFD7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CEDE911E65F0D00094DFD7 /* HomeViewController.m */; };
@@ -79,27 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091B5A431E5A03C000484423 /* SYBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBaseRequest.h; sourceTree = "<group>"; };
-		091B5A441E5A03C000484423 /* SYBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBaseRequest.m; sourceTree = "<group>"; };
-		091B5A451E5A03C000484423 /* SYBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBatchRequest.h; sourceTree = "<group>"; };
-		091B5A461E5A03C000484423 /* SYBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBatchRequest.m; sourceTree = "<group>"; };
-		091B5A471E5A03C000484423 /* SYBatchRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBatchRequestManager.h; sourceTree = "<group>"; };
-		091B5A481E5A03C000484423 /* SYBatchRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBatchRequestManager.m; sourceTree = "<group>"; };
-		091B5A491E5A03C000484423 /* SYChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYChainRequest.h; sourceTree = "<group>"; };
-		091B5A4A1E5A03C000484423 /* SYChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYChainRequest.m; sourceTree = "<group>"; };
-		091B5A4B1E5A03C000484423 /* SYChainRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYChainRequestManager.h; sourceTree = "<group>"; };
-		091B5A4C1E5A03C000484423 /* SYChainRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYChainRequestManager.m; sourceTree = "<group>"; };
-		091B5A4D1E5A03C000484423 /* SYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetwork.h; sourceTree = "<group>"; };
-		091B5A4E1E5A03C000484423 /* SYNetworkCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworkCacheManager.h; sourceTree = "<group>"; };
-		091B5A4F1E5A03C000484423 /* SYNetworkCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkCacheManager.m; sourceTree = "<group>"; };
-		091B5A501E5A03C000484423 /* SYNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworkConfig.h; sourceTree = "<group>"; };
-		091B5A511E5A03C000484423 /* SYNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkConfig.m; sourceTree = "<group>"; };
-		091B5A521E5A03C000484423 /* SYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworkManager.h; sourceTree = "<group>"; };
-		091B5A531E5A03C000484423 /* SYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkManager.m; sourceTree = "<group>"; };
-		091B5A541E5A03C000484423 /* SYNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetworkUtil.h; sourceTree = "<group>"; };
-		091B5A551E5A03C000484423 /* SYNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNetworkUtil.m; sourceTree = "<group>"; };
-		091B5A601E5A054900484423 /* IBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBRequest.h; sourceTree = "<group>"; };
-		091B5A611E5A054900484423 /* IBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBRequest.m; sourceTree = "<group>"; };
 		091B5A641E5A066900484423 /* Meizi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meizi.h; sourceTree = "<group>"; };
 		091B5A651E5A066900484423 /* Meizi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meizi.m; sourceTree = "<group>"; };
 		0940FB2C1DE1A79B009F1DE5 /* IBMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMRootViewController.h; sourceTree = "<group>"; };
@@ -114,19 +78,6 @@
 		0940FB3F1DE1B9A4009F1DE5 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		0945B1291DE331240050782C /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		0945B12A1DE331240050782C /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		0946D3671E59F57300E4943E /* AnyNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyNetwork.h; sourceTree = "<group>"; };
-		0946D3681E59F58300E4943E /* ANConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANConst.h; sourceTree = "<group>"; };
-		0946D3691E59F58300E4943E /* ANError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANError.h; sourceTree = "<group>"; };
-		0946D36A1E59F58300E4943E /* ANError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANError.m; sourceTree = "<group>"; };
-		0946D36B1E59F58300E4943E /* ANManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANManager.h; sourceTree = "<group>"; };
-		0946D36C1E59F58300E4943E /* ANManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANManager.m; sourceTree = "<group>"; };
-		0946D36D1E59F58300E4943E /* ANProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANProtocol.h; sourceTree = "<group>"; };
-		0946D36E1E59F58300E4943E /* ANRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANRequest.h; sourceTree = "<group>"; };
-		0946D36F1E59F58300E4943E /* ANRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANRequest.m; sourceTree = "<group>"; };
-		0946D3701E59F58300E4943E /* ANResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANResponse.h; sourceTree = "<group>"; };
-		0946D3711E59F58300E4943E /* ANResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANResponse.m; sourceTree = "<group>"; };
-		0946D3771E59F5A900E4943E /* IBSDWebImagePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBSDWebImagePlugin.h; sourceTree = "<group>"; };
-		0946D3781E59F5A900E4943E /* IBSDWebImagePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBSDWebImagePlugin.m; sourceTree = "<group>"; };
 		0964CBBE1DE5DBA700427436 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
@@ -212,25 +163,6 @@
 		091B5A421E5A039900484423 /* SYNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				091B5A431E5A03C000484423 /* SYBaseRequest.h */,
-				091B5A441E5A03C000484423 /* SYBaseRequest.m */,
-				091B5A451E5A03C000484423 /* SYBatchRequest.h */,
-				091B5A461E5A03C000484423 /* SYBatchRequest.m */,
-				091B5A471E5A03C000484423 /* SYBatchRequestManager.h */,
-				091B5A481E5A03C000484423 /* SYBatchRequestManager.m */,
-				091B5A491E5A03C000484423 /* SYChainRequest.h */,
-				091B5A4A1E5A03C000484423 /* SYChainRequest.m */,
-				091B5A4B1E5A03C000484423 /* SYChainRequestManager.h */,
-				091B5A4C1E5A03C000484423 /* SYChainRequestManager.m */,
-				091B5A4D1E5A03C000484423 /* SYNetwork.h */,
-				091B5A4E1E5A03C000484423 /* SYNetworkCacheManager.h */,
-				091B5A4F1E5A03C000484423 /* SYNetworkCacheManager.m */,
-				091B5A501E5A03C000484423 /* SYNetworkConfig.h */,
-				091B5A511E5A03C000484423 /* SYNetworkConfig.m */,
-				091B5A521E5A03C000484423 /* SYNetworkManager.h */,
-				091B5A531E5A03C000484423 /* SYNetworkManager.m */,
-				091B5A541E5A03C000484423 /* SYNetworkUtil.h */,
-				091B5A551E5A03C000484423 /* SYNetworkUtil.m */,
 			);
 			path = SYNetWork;
 			sourceTree = "<group>";
@@ -238,8 +170,6 @@
 		091B5A5F1E5A052900484423 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				091B5A601E5A054900484423 /* IBRequest.h */,
-				091B5A611E5A054900484423 /* IBRequest.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -278,37 +208,8 @@
 		0946D3641E59F54800E4943E /* AnyNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				0946D3761E59F59D00E4943E /* Plugin */,
-				0946D3671E59F57300E4943E /* AnyNetwork.h */,
-				0946D3661E59F55B00E4943E /* Core */,
 			);
 			path = AnyNetWork;
-			sourceTree = "<group>";
-		};
-		0946D3661E59F55B00E4943E /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0946D3681E59F58300E4943E /* ANConst.h */,
-				0946D3691E59F58300E4943E /* ANError.h */,
-				0946D36A1E59F58300E4943E /* ANError.m */,
-				0946D36B1E59F58300E4943E /* ANManager.h */,
-				0946D36C1E59F58300E4943E /* ANManager.m */,
-				0946D36D1E59F58300E4943E /* ANProtocol.h */,
-				0946D36E1E59F58300E4943E /* ANRequest.h */,
-				0946D36F1E59F58300E4943E /* ANRequest.m */,
-				0946D3701E59F58300E4943E /* ANResponse.h */,
-				0946D3711E59F58300E4943E /* ANResponse.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		0946D3761E59F59D00E4943E /* Plugin */ = {
-			isa = PBXGroup;
-			children = (
-				0946D3771E59F5A900E4943E /* IBSDWebImagePlugin.h */,
-				0946D3781E59F5A900E4943E /* IBSDWebImagePlugin.m */,
-			);
-			path = Plugin;
 			sourceTree = "<group>";
 		};
 		098AA0F91E4CDBEB00693659 /* NetWork */ = {
@@ -765,21 +666,13 @@
 				09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */,
 				09EB7FDB1DCE0F270094EC2B /* IBMHomeViewController.m in Sources */,
 				4AAEAB281D44C630009CBD0A /* IBMModel.m in Sources */,
-				091B5A5B1E5A03C000484423 /* SYNetworkCacheManager.m in Sources */,
-				091B5A581E5A03C000484423 /* SYBatchRequestManager.m in Sources */,
 				09EB7FDF1DCE0F970094EC2B /* IBMBaseController.m in Sources */,
-				0946D3791E59F5A900E4943E /* IBSDWebImagePlugin.m in Sources */,
 				091B5A661E5A066900484423 /* Meizi.m in Sources */,
 				0940FB401DE1B9A4009F1DE5 /* UIView+Additions.m in Sources */,
-				0946D3731E59F58300E4943E /* ANManager.m in Sources */,
 				0940FB2E1DE1A79B009F1DE5 /* IBMRootViewController.m in Sources */,
 				09EB7FCC1DCE09320094EC2B /* BBaseViewControllers.m in Sources */,
-				091B5A621E5A054900484423 /* IBRequest.m in Sources */,
-				091B5A5C1E5A03C000484423 /* SYNetworkConfig.m in Sources */,
-				0946D3751E59F58300E4943E /* ANResponse.m in Sources */,
 				4AAEAB2B1D450F99009CBD0A /* LKDBTranscationHelper.m in Sources */,
 				4AD9A7401D4F7D7A0097899B /* FMDatabaseQueue+Database.m in Sources */,
-				091B5A5E1E5A03C000484423 /* SYNetworkUtil.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
@@ -787,21 +680,14 @@
 				0940FB381DE1AA77009F1DE5 /* TabBarItem.m in Sources */,
 				09CEDE961E65F34C0094DFD7 /* CommonViewStyle.m in Sources */,
 				09CEDE921E65F0D00094DFD7 /* HomeViewController.m in Sources */,
-				091B5A561E5A03C000484423 /* SYBaseRequest.m in Sources */,
-				0946D3721E59F58300E4943E /* ANError.m in Sources */,
-				091B5A571E5A03C000484423 /* SYBatchRequest.m in Sources */,
-				091B5A591E5A03C000484423 /* SYChainRequest.m in Sources */,
 				09CEDE9A1E65F9C10094DFD7 /* KKNavigationAdapter.m in Sources */,
 				4AAEAB341D4510EA009CBD0A /* LKDB+Mapping.m in Sources */,
 				4A9ED4B71A5281FB00FD06DD /* main.m in Sources */,
-				091B5A5A1E5A03C000484423 /* SYChainRequestManager.m in Sources */,
 				0940FB341DE1AA46009F1DE5 /* TabBar.m in Sources */,
-				091B5A5D1E5A03C000484423 /* SYNetworkManager.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
 				0945B12B1DE331240050782C /* BaseNavigationController.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
-				0946D3741E59F58300E4943E /* ANRequest.m in Sources */,
 				0940FB3C1DE1AB97009F1DE5 /* BadgeView.m in Sources */,
 				4A0782FC1D44BF50007A2E64 /* IBMStringUtils.m in Sources */,
 			);
