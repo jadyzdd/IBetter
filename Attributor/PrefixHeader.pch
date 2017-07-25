@@ -18,6 +18,8 @@
 #import <Foundation/Foundation.h>
 #import "Constants.h"
 #import "Masonry.h"
+#import "AppMacros.h"
+#import "CommonViewStyle.h"
 //#import "Koala.h"
 
 #endif /* PrefixHeader_pch */

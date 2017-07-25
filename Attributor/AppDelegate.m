@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "IBMRootViewController.h"
+#import "IBMHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     _rootController = [[IBMRootViewController alloc] init];
+    _homeController = [[IBMHomeViewController alloc] init];
     self.window.rootViewController = _rootController;
     [self.window makeKeyAndVisible];
     
