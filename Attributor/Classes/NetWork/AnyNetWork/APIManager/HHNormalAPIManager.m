@@ -10,6 +10,28 @@
 
 @implementation HHNormalAPIManager
 
+- (void)login:(NSString *)username password:(NSString *)password success:(SuccessBlocks)successBlock failure:(FailureBlocks)failureBlock{
+    
+    HHDataAPIConfiguration *config = [HHDataAPIConfiguration new];
+    config.urlPath = @"http://139.196.98.203:3000/api/users";
+    config.requestType = HHNetworkRequestTypePost;
+    config.requestParameters = @{@"username" : username,
+                                 @"password" : password};
+    
+    
+    [self dispatchDataTaskWithConfiguration:config completionHandler:^(NSError *error, id result) {
+        if (!error) {
+
+        }
+    }];
+    
+}
+
+- (void)logout{}
+
+- (void)registerUser:(NSString *)username password:(NSString *)password success:(SuccessBlocks)successBlock failture:(FailureBlocks)failureBlock{
+}
+
 - (NSNumber *)fetchNearLiveListWithUserId:(NSUInteger)userId isWomen:(BOOL)isWomen completionHandler:(HHNetworkTaskCompletionHander)completionHandler {
     
     HHDataAPIConfiguration *config = [HHDataAPIConfiguration new];

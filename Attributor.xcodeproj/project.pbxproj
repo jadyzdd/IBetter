@@ -28,6 +28,10 @@
 		098BD6531F274FBF005A3589 /* HHNetworkCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 098BD6521F274FBF005A3589 /* HHNetworkCacheManager.m */; };
 		098BD6571F275014005A3589 /* HHAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 098BD6561F275014005A3589 /* HHAPIManager.m */; };
 		098BD65A1F27521C005A3589 /* HHNormalAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 098BD6591F27521C005A3589 /* HHNormalAPIManager.m */; };
+		09AB5F9D1F59075D00936FC3 /* VCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB5F9C1F59075D00936FC3 /* VCLogin.m */; };
+		09AB5FA01F59635500936FC3 /* VCRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB5F9F1F59635500936FC3 /* VCRegister.m */; };
+		09AB5FA31F59638A00936FC3 /* VCRegFinish.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB5FA21F59638A00936FC3 /* VCRegFinish.m */; };
+		09AB5FA91F5D73A900936FC3 /* VCForgotPwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB5FA81F5D73A900936FC3 /* VCForgotPwd.m */; };
 		09C54FC11DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09C54FC21DCD8FAA00DECD18 /* UIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */; };
 		09CEDE921E65F0D00094DFD7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CEDE911E65F0D00094DFD7 /* HomeViewController.m */; };
@@ -111,6 +115,14 @@
 		098BD6561F275014005A3589 /* HHAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAPIManager.m; sourceTree = "<group>"; };
 		098BD6581F27521C005A3589 /* HHNormalAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNormalAPIManager.h; sourceTree = "<group>"; };
 		098BD6591F27521C005A3589 /* HHNormalAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNormalAPIManager.m; sourceTree = "<group>"; };
+		09AB5F9B1F59075D00936FC3 /* VCLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLogin.h; sourceTree = "<group>"; };
+		09AB5F9C1F59075D00936FC3 /* VCLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLogin.m; sourceTree = "<group>"; };
+		09AB5F9E1F59635500936FC3 /* VCRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRegister.h; sourceTree = "<group>"; };
+		09AB5F9F1F59635500936FC3 /* VCRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRegister.m; sourceTree = "<group>"; };
+		09AB5FA11F59638A00936FC3 /* VCRegFinish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRegFinish.h; sourceTree = "<group>"; };
+		09AB5FA21F59638A00936FC3 /* VCRegFinish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRegFinish.m; sourceTree = "<group>"; };
+		09AB5FA71F5D73A900936FC3 /* VCForgotPwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCForgotPwd.h; sourceTree = "<group>"; };
+		09AB5FA81F5D73A900936FC3 /* VCForgotPwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCForgotPwd.m; sourceTree = "<group>"; };
 		09C54FBF1DCD8FAA00DECD18 /* UIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Additions.h"; sourceTree = "<group>"; };
 		09C54FC01DCD8FAA00DECD18 /* UIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Additions.m"; sourceTree = "<group>"; };
 		09CEDE901E65F0D00094DFD7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -299,6 +311,22 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
+		09AB5F9A1F59074400936FC3 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09AB5F9B1F59075D00936FC3 /* VCLogin.h */,
+				09AB5F9C1F59075D00936FC3 /* VCLogin.m */,
+				09AB5F9E1F59635500936FC3 /* VCRegister.h */,
+				09AB5F9F1F59635500936FC3 /* VCRegister.m */,
+				09AB5FA11F59638A00936FC3 /* VCRegFinish.h */,
+				09AB5FA21F59638A00936FC3 /* VCRegFinish.m */,
+				09AB5FA71F5D73A900936FC3 /* VCForgotPwd.h */,
+				09AB5FA81F5D73A900936FC3 /* VCForgotPwd.m */,
+			);
+			name = LoginViewControllers;
+			path = BControllers/LoginViewControllers;
+			sourceTree = "<group>";
+		};
 		09C54FB61DCD8F5E00DECD18 /* Categoty */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +393,7 @@
 		09EB7FC51DCE06420094EC2B /* B */ = {
 			isa = PBXGroup;
 			children = (
+				09AB5F9A1F59074400936FC3 /* LoginViewControllers */,
 				0940FB301DE1A913009F1DE5 /* View */,
 				09EB7FC81DCE06990094EC2B /* BUtils */,
 				09EB7FC61DCE067D0094EC2B /* BControllers */,
@@ -695,9 +724,29 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Attributor/Pods-Attributor-resources.sh",
+				"${PODS_ROOT}/SMS_SDK/SMS_SDK/en.lproj",
+				"${PODS_ROOT}/SMS_SDK/SMS_SDK/zh-Hans.lproj",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/zh-Hans.lproj/UMFeedbackLocalizable.strings",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/bubble_min@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/cancel@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/microphone@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/save@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputText@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputTextHL@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputVoice@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputVoiceHL@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_add_photo@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_dialog_cancel@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_dialog_content@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_01@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_02@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_03@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_default@2x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -725,13 +774,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Attributor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -757,12 +809,15 @@
 				098BD64D1F274FA7005A3589 /* HHNetworkClient.m in Sources */,
 				4A3BBE871C958B2D000A349C /* IBMUserViewController.m in Sources */,
 				4A9ED4BA1A5281FB00FD06DD /* AppDelegate.m in Sources */,
+				09AB5FA31F59638A00936FC3 /* VCRegFinish.m in Sources */,
 				098BD65A1F27521C005A3589 /* HHNormalAPIManager.m in Sources */,
 				098BD6411F273247005A3589 /* HHNetworkTaskGroup.m in Sources */,
 				4AAEAB371D451166009CBD0A /* LKDBUtils.m in Sources */,
+				09AB5FA91F5D73A900936FC3 /* VCForgotPwd.m in Sources */,
 				4AAEAB311D45107D009CBD0A /* IBMModel+LKModel.m in Sources */,
 				0940FB381DE1AA77009F1DE5 /* TabBarItem.m in Sources */,
 				09CEDE961E65F34C0094DFD7 /* CommonViewStyle.m in Sources */,
+				09AB5F9D1F59075D00936FC3 /* VCLogin.m in Sources */,
 				09CEDE921E65F0D00094DFD7 /* HomeViewController.m in Sources */,
 				098BD6571F275014005A3589 /* HHAPIManager.m in Sources */,
 				09CEDE9A1E65F9C10094DFD7 /* KKNavigationAdapter.m in Sources */,
@@ -772,6 +827,7 @@
 				098BD6501F274FB3005A3589 /* HHURLRequestGenerator.m in Sources */,
 				4A3BBE901C95A21A000A349C /* Constants.m in Sources */,
 				4AAEAB2E1D450FDE009CBD0A /* IBMModel+LKDBTranscationHelper.m in Sources */,
+				09AB5FA01F59635500936FC3 /* VCRegister.m in Sources */,
 				0945B12B1DE331240050782C /* BaseNavigationController.m in Sources */,
 				4AAEAB251D44C411009CBD0A /* LKDBHelper.m in Sources */,
 				0940FB3C1DE1AB97009F1DE5 /* BadgeView.m in Sources */,

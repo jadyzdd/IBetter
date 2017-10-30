@@ -10,6 +10,13 @@
 #import "IBMRootViewController.h"
 #import "IBMHomeViewController.h"
 
+#import <SMS_SDK/SMSSDK.h>
+
+
+//SMSSDK官网公共key
+#define mob_appkey @"189897e0de6dc"
+#define mob_appSecrect @"1ea6703dbd2e3519ab403de92efe335d"
+
 @interface AppDelegate ()
 
 @end
@@ -18,8 +25,25 @@
 
 //test commit lalla agian agian
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    BOOL loginFlag = [user boolForKey:@"loginFlag"];
+    NSString *userName = [user objectForKey:@"userName"];
+    NSString *userPassword = [user objectForKey:@"userPassword"];
+    //注册MOB短信验证
+    [SMSSDK registerApp:mob_appkey withSecret:mob_appSecrect];
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+//    if (!loginFlag) {
+//        if (userName !=nil && userPassword != nil) {
+//            [self ]
+//        }
+//    }
     
     _rootController = [[IBMRootViewController alloc] init];
     _homeController = [[IBMHomeViewController alloc] init];
@@ -29,6 +53,12 @@
     return YES;
 }
 
+
+//- (void)showLogin{
+//    VCLogin *vc = [[VCLogin alloc]init];
+//    VCNavBase *nvc = [[VCNavBase alloc]initWithRootViewController:vc];
+//    self.window.rootViewController = nvc;
+//}
 
 
 - (BOOL)isFirstLaunch{
